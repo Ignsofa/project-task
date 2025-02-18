@@ -1,0 +1,94 @@
+.app-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.goal-form {
+  background-color: #2a2a40;  /* Темный фон формы */
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.form-input {
+  padding: 0.75rem;
+  border: 1px solid #4a4a6a;  /* Более темная граница */
+  border-radius: 4px;
+  background-color: #3a3a50;  /* Темный фон input */
+  color: #ffffff;  /* Белый текст */
+}
+
+.form-input::placeholder {
+  color: #8a8aa0;  /* Светло-серый для placeholder */
+}
+
+.submit-button {
+  padding: 0.75rem;
+  background-color: #4a80cc;  /* Более насыщенный синий */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.submit-button:hover {
+  background-color: #5590dd;  /* Светлее при наведении */
+}
+
+.goal-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.goal-item {
+  background-color: #2a2a40;  /* Темный фон элемента */
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #4a4a6a;  /* Более темная граница */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.goal-content {
+  flex-grow: 1;
+}
+
+.goal-title {
+  margin: 0 0 0.5rem 0;
+  color: #99ccff;  /* Светло-синий для заголовка */
+}
+
+.goal-description {
+  margin: 0;
+  color: #b3b3cc;  /* Светло-серый для описания */
+}
+
+.delete-button {
+  background-color: #334466;  /* Темно-синий для кнопки удаления */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-left: 1rem;
+  font-size: 1.2rem;
+  transition: background-color 0.2s;
+}
+
+.delete-button:hover {
+  background-color: #445588;  /* Светлее при наведении */
+}
